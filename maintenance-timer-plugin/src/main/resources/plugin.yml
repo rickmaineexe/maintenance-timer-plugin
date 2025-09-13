@@ -1,0 +1,9 @@
+name: MaintenanceTimer
+main: com.example.maintenancetimer.MaintenanceTimer
+version: 1.0.0
+api: 1.21
+description: Zeigt beim Join eine Maintenance-Countdown-Title-Nachricht und fährt Server bei Ablauf herunter.
+commands:
+  timermaint:
+    description: Setze einen Maintenance-Timer. Nur für OPs.
+    usage: /timermaint <days> <hours> <minutes> <seconds>
